@@ -2,6 +2,7 @@ import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Facebook from "@mui/icons-material/Facebook";
+import Booking from "../assets/Booking.png";
 
 export const Header = () => {
   return (
@@ -20,10 +21,11 @@ export const Header = () => {
           <Facebook />
         </div>
         <div>
-          <div>Booking</div>
-          <div>Waza</div>
+          <img src={Booking} />
         </div>
-        <div>708-508-4500</div>
+        <div>
+          <h2>708-508-4500</h2>
+        </div>
       </div>
       <hr />
     </>

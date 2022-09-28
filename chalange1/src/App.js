@@ -1,8 +1,14 @@
 import React from "react";
-import { Header } from "./Header/index";
+import { Body1 } from "./Body/body1";
+import { Header } from "./Header/header";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Body1 />
+    </>
+  );
 }
 
 export default App;
