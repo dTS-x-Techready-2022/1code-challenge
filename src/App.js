@@ -1,10 +1,11 @@
 import './App.css';
 import Container from '@mui/material/Container';
+import ButtonAppBar from './ButtonAppBar';
 
 function App() {
   return (
     <>
-      <nav>
+      {/* <nav>
         <div className='social-media'>
           <ul>
             <li>Instagram</li>
@@ -18,8 +19,10 @@ function App() {
         <div className='contact'>
           <p>708-508-4500</p>
         </div>
-      </nav>
+      </nav> */}
+      <ButtonAppBar>
 
+      </ButtonAppBar>
       <Container maxWidth="sm">
         <div className='head'>
           <div>
