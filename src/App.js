@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
+import { Container } from '@mui/material';
 import './App.css';
 import NavBar from './components/navBar';
 
 function App() {
   return (
-    <>
-    <NavBar/>
-    </>
+    <Container fixed className="App">
+       <NavBar/>
+    </Container>
 
     
     // <div className="App">

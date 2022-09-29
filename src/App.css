@@ -1,6 +1,24 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  padding-top:2rem;
 }
+
+.nav {
+  /* height : 50px; */
+  /* vertical-align: middle; */
+}
+.nav
+  .sosmed {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    vertical-align: middle;
+    padding-top: 0.15rem;
+  }
+  .img {
+    text-align: center;
+  }
+
 
 .App-logo {
   height: 40vmin;
